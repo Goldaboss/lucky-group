@@ -26,27 +26,30 @@
 					<p class="first__main--link-title first__main--link-container">Сделай шаг к выздоровлению</p>
 				</div>
 				
-				<form action="http://localhost:3000/"   class="first__main--link-form first__main--link-container">
+				<form action="http://localhost:3000/" class="first__main--link-form first__main--link-container">
 					
 					<label for="you-name" class="first__main--link-form-label">Ваше <span
 							class="first__main--link-form-label-green">имя</span></label>
 					<input type="text" id="you-name"
-						   class="first__main--link-form-input first__main--link-form-input-name" placeholder="Алексей" required>
+						   class="first__main--link-form-input first__main--link-form-input-name" placeholder="Алексей"
+						   required>
 					
 					
 					<label for="you-phone" class="first__main--link-form-label ">Ваш <span
 							class="first__main--link-form-label-green">телефон</span></label>
-					<input type="tel" id="you-phone"
-						   class="first__main--link-form-input first__main--link-form-input-phone"
-						   placeholder="+7 (123) 456 78-90" required>
 					
-					<div class="first__main--link-form-input first__main--link-form-input-country">
-						<select class="first__main--link-form-input-country-select">
-							<option value="ru">RU</option>
-							<option value="eng">Eng</option>
-						</select>
+					<div class="first__main--link-form-wrap">
+						<input type="tel" id="you-phone"
+							   class="first__main--link-form-input first__main--link-form-input-phone"
+							   placeholder="+7 (123) 456 78-90" required>
+						
+						<div class="first__main--link-form-input-country">
+							<select class="first__main--link-form-input-country-select">
+								<option value="ru">RU</option>
+								<option value="eng">Eng</option>
+							</select>
+						</div>
 					</div>
-					
 					
 					
 					<button type="submit" class="first__main--link-form-btn"><span
@@ -55,6 +58,12 @@
 				
 				</form>
 			
+			</div>
+			
+			<div class="first__main--secure">
+				<p class="first__main--secure-text">Trusted</p>
+				<img src="img/lock.svg" alt="" class="first__main--secure-lock">
+				<p class="first__main--secure-text">Secure</p>
 			</div>
 		</div>
 	</div>

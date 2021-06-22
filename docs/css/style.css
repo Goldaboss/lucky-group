@@ -244,7 +244,7 @@ a:hover {
       left: 42%;
       z-index: -2; }
     .first__main--info-bg {
-      min-height: 560px;
+      min-height: 500px;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -260,7 +260,7 @@ a:hover {
               justify-content: space-between;
       color: #FFFFFF;
       padding: 40px;
-      background: url("../img/image2.png") no-repeat 55px 210px; }
+      background: url("../../img/image2.png") no-repeat 55px 210px; }
     .first__main--info-title {
       font-size: 1.5rem;
       font-weight: 700;
@@ -288,6 +288,19 @@ a:hover {
           -ms-flex-wrap: wrap;
               flex-wrap: wrap;
       padding: 32px 0 0; }
+      .first__main--link-form-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: nowrap;
+            -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%; }
       .first__main--link-form-label {
         width: 100%;
         font-weight: 800;
@@ -318,10 +331,17 @@ a:hover {
           opacity: 0.2; }
         .first__main--link-form-input-country {
           padding: 0;
+          -webkit-box-flex: 1;
+          -webkit-flex-grow: 1;
+              -ms-flex-positive: 1;
+                  flex-grow: 1;
           position: relative;
           max-width: 116px;
           font-weight: 600;
-          background: #F8F8F8 url("../img/image7.png") no-repeat 50px 15px; }
+          background: #F8F8F8 url("../../img/image7.png") no-repeat 50% 50%;
+          font-size: 1.16rem;
+          border: 1px solid #E4E4E4;
+          border-radius: 5px; }
           .first__main--link-form-input-country-select {
             width: 100%;
             padding: 16px 20px;
@@ -344,7 +364,7 @@ a:hover {
             position: absolute;
             top: -webkit-calc(50% - 4px);
             top: calc(50% - 4px);
-            right: 23px;
+            right: 20px;
             z-index: 1; }
       .first__main--link-form-btn {
         width: 100%;
@@ -359,3 +379,71 @@ a:hover {
         outline: none; }
         .first__main--link-form-btn-text {
           padding-right: 12px; }
+  .first__main--secure {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: none; }
+    .first__main--secure-text {
+      font-size: 1.16rem;
+      font-weight: 700;
+      margin: 0 20px; }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 20px; }
+  .first__main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .first__main--info {
+      width: 100%;
+      background: none;
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+      .first__main--info-bg {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        padding: 0;
+        min-height: 265px;
+        background-size: 223px 122px;
+        background-position: 50% 50%; }
+      .first__main--info-title {
+        color: black; }
+      .first__main--info:before {
+        width: 202px;
+        height: 202px;
+        top: -webkit-calc(50% - 101px);
+        top: calc(50% - 101px);
+        left: -webkit-calc(50% - 101px);
+        left: calc(50% - 101px); }
+    .first__main--link {
+      width: 100%; }
+      .first__main--link-wrap {
+        background: none; }
+      .first__main--link-title {
+        padding: 0; }
+      .first__main--link-form {
+        padding: 12px 0 0; }
+        .first__main--link-form-input {
+          padding: 16px 10px; }
+          .first__main--link-form-input-phone {
+            max-width: 174px;
+            margin-right: 10px; }
+          .first__main--link-form-input-country:after {
+            right: 10px; }
+          .first__main--link-form-input-country-select {
+            padding: 16px 10px; }
+        .first__main--link-form-btn {
+          margin: 30px 0 40px; }
+    .first__main--secure {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }
