@@ -2,12 +2,64 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Titel</title>
+	<title>LuckyGroup</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-	<h1>12</h1>
+<section class="first">
+	<div class="container">
+		<div class="first__main">
+			
+			<div class="first__main--info">
+				<div class="first__main--info-bg">
+					<p class="first__main--info-title">Reduslim</p>
+					<p class="first__main--info-title">ECO</p>
+				</div>
+			</div>
+			
+			<div class="first__main--link">
+				
+				<div class="first__main--link-wrap">
+					<p class="first__main--link-title first__main--link-container">Сделай шаг к выздоровлению</p>
+				</div>
+				
+				<form action="http://localhost:3000/"   class="first__main--link-form first__main--link-container">
+					
+					<label for="you-name" class="first__main--link-form-label">Ваше <span
+							class="first__main--link-form-label-green">имя</span></label>
+					<input type="text" id="you-name"
+						   class="first__main--link-form-input first__main--link-form-input-name" placeholder="Алексей" required>
+					
+					
+					<label for="you-phone" class="first__main--link-form-label ">Ваш <span
+							class="first__main--link-form-label-green">телефон</span></label>
+					<input type="tel" id="you-phone"
+						   class="first__main--link-form-input first__main--link-form-input-phone"
+						   placeholder="+7 (123) 456 78-90" required>
+					
+					<div class="first__main--link-form-input first__main--link-form-input-country">
+						<select class="first__main--link-form-input-country-select">
+							<option value="ru">RU</option>
+							<option value="eng">Eng</option>
+						</select>
+					</div>
+					
+					
+					
+					<button type="submit" class="first__main--link-form-btn"><span
+							class="first__main--link-form-btn-text">Заказать</span><img src="img/Vector2.svg" alt="">
+					</button>
+				
+				</form>
+			
+			</div>
+		</div>
+	</div>
+</section>
+	
 <script src="js/script.js"></script>
 </body>
 </html>
