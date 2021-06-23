@@ -268,7 +268,7 @@ a:hover {
   .first__main--link {
     width: 50%; }
     .first__main--link-container {
-      max-width: 320px;
+      max-width: 325px;
       margin: 0 auto; }
     .first__main--link-wrap {
       background: #F8F8F8;
@@ -287,7 +287,7 @@ a:hover {
       -webkit-flex-wrap: wrap;
           -ms-flex-wrap: wrap;
               flex-wrap: wrap;
-      padding: 32px 0 0; }
+      padding: 32px 5px 0 0; }
       .first__main--link-form-wrap {
         display: -webkit-box;
         display: -webkit-flex;
@@ -317,7 +317,7 @@ a:hover {
         border: 1px solid #E4E4E4;
         border-radius: 5px; }
         .first__main--link-form-input-phone {
-          width: 55%;
+          width: 57%;
           margin-right: 20px; }
         .first__main--link-form-input::-webkit-input-placeholder {
           opacity: 0.2; }
@@ -337,7 +337,7 @@ a:hover {
                   flex-grow: 1;
           position: relative;
           font-weight: 600;
-          background: #F8F8F8 url("../img/image7.png") no-repeat 50% 50%;
+          background: #F8F8F8 url("../img/image7.png") no-repeat 60% 55%;
           font-size: 1.16rem;
           border: 1px solid #E4E4E4;
           border-radius: 5px; }
@@ -453,7 +453,7 @@ a:hover {
         padding: 0;
         min-height: 265px;
         background-size: 223px 122px;
-        background-position: 50% 50%; }
+        background-position: 60% 55%; }
       .first__main--info-title {
         color: black; }
       .first__main--info:before {
@@ -470,6 +470,7 @@ a:hover {
       .first__main--link-wrap {
         background: none; }
       .first__main--link-title {
+        margin: 5px 0 -5px;
         padding: 0; }
         .first__main--link-title-br {
           display: none; }
@@ -478,6 +479,7 @@ a:hover {
         .first__main--link-form-input {
           padding: 16px 10px; }
           .first__main--link-form-input-phone {
+            width: 62%;
             margin-right: 10px; }
           .first__main--link-form-input-country:after {
             right: 10px; }
