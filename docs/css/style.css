@@ -324,20 +324,15 @@ a:hover {
           width: 57%;
           margin-right: 20px; }
         .first__main--link-form-input::-webkit-input-placeholder {
-          color: #212121;
-          opacity: 0.2; }
+          color: #212121; }
         .first__main--link-form-input::-moz-placeholder {
-          color: #212121;
-          opacity: 0.2; }
+          color: #212121; }
         .first__main--link-form-input:-ms-input-placeholder {
-          color: #212121;
-          opacity: 0.2; }
+          color: #212121; }
         .first__main--link-form-input::-ms-input-placeholder {
-          color: #212121;
-          opacity: 0.2; }
+          color: #212121; }
         .first__main--link-form-input::placeholder {
-          color: #212121;
-          opacity: 0.2; }
+          color: #212121; }
         .first__main--link-form-input-country {
           padding: 0;
           -webkit-box-flex: 1;
