@@ -240,8 +240,8 @@ a:hover {
       width: 688px;
       height: 688px;
       border-radius: 50%;
-      top: -19%;
-      left: 42%;
+      top: -95px;
+      left: 235px;
       z-index: -2; }
     .first__main--info-bg {
       height: 100%;
@@ -259,7 +259,7 @@ a:hover {
           -ms-flex-pack: justify;
               justify-content: space-between;
       color: #FFFFFF;
-      padding: 40px;
+      padding: 40px 40px 35px;
       background: url("../img/image2.png") no-repeat 60% 85%; }
     .first__main--info-title {
       font-size: 1.5rem;
@@ -366,18 +366,57 @@ a:hover {
             right: 20px;
             z-index: 1; }
       .first__main--link-form-btn {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
         width: 100%;
-        position: relative;
         background: #428A60;
         border: none;
         border-radius: 5px;
         color: #FFFFFF;
         font-size: 1.16rem;
-        padding: 12px 0;
+        padding: 13px 0;
         margin: 40px 0 60px;
         outline: none; }
-        .first__main--link-form-btn-text {
-          padding-right: 12px; }
+        .first__main--link-form-btn-arrow {
+          height: 2px;
+          position: relative;
+          width: 18px;
+          background: #FFFFFF;
+          display: inline-block;
+          vertical-align: bottom;
+          margin-left: 10px; }
+          .first__main--link-form-btn-arrow:before {
+            content: " ";
+            width: 2px;
+            background: #FFFFFF;
+            height: 10px;
+            position: absolute;
+            top: -1px;
+            -webkit-transform: rotate(50deg);
+                -ms-transform: rotate(50deg);
+                    transform: rotate(50deg);
+            right: 2px; }
+          .first__main--link-form-btn-arrow:after {
+            content: " ";
+            width: 2px;
+            background: #FFFFFF;
+            height: 10px;
+            position: absolute;
+            top: -7px;
+            -webkit-transform: rotate(-50deg);
+                -ms-transform: rotate(-50deg);
+                    transform: rotate(-50deg);
+            right: 2px; }
   .first__main--secure {
     -webkit-box-pack: center;
     -webkit-justify-content: center;

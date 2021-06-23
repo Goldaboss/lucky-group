@@ -33,8 +33,8 @@
         width: 688px;
         height: 688px;
         border-radius: 50%;
-        top: -19%;
-        left: 42%;
+        top: -95px;
+        left: 235px;
         z-index: -2;
       }
 
@@ -45,7 +45,7 @@
         flex-direction: column;
         justify-content: space-between;
         color: #FFFFFF;
-        padding: 40px;
+        padding: 40px 40px 35px;
         background: url("../img/image2.png") no-repeat 60% 85%;
       }
 
@@ -156,19 +156,48 @@
         }
 
         &-btn {
+          display: flex;
+          justify-content: center;
+          align-items: center;
           width: 100%;
-          position: relative;
           background: #428A60;
           border: none;
           border-radius: 5px;
           color: #FFFFFF;
           font-size: 1.16rem;
-          padding: 12px 0;
+          padding: 13px 0;
           margin: 40px 0 60px;
           outline: none;
 
-          &-text {
-            padding-right: 12px;
+          &-arrow {
+            height: 2px;
+            position: relative;
+            width: 18px;
+            background: #FFFFFF;
+            display: inline-block;
+            vertical-align: bottom;
+            margin-left: 10px;
+
+            &:before {
+              content: " ";
+              width: 2px;
+              background: #FFFFFF;
+              height: 10px;
+              position: absolute;
+              top: -1px;
+              transform: rotate(50deg);
+              right: 2px;
+            }
+            &:after{
+              content: " ";
+              width: 2px;
+              background: #FFFFFF;
+              height: 10px;
+              position: absolute;
+              top: -7px;
+              transform: rotate(-50deg);
+              right: 2px;
+            }
           }
         }
       }
