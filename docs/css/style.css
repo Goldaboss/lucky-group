@@ -340,15 +340,13 @@ a:hover {
           background: #F8F8F8 url("../img/image7.png") no-repeat 60% 55%;
           font-size: 1.16rem;
           border: 1px solid #E4E4E4;
-          border-radius: 5px; }
+          border-radius: 5px;
+          overflow: hidden; }
           .first__main--link-form-input-country-select {
-            width: 100%;
+            width: 120%;
             padding: 16px 20px;
             border: none;
-            background: transparent;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            appearance: none; }
+            background: transparent; }
           .first__main--link-form-input-country:after {
             content: "";
             display: block;

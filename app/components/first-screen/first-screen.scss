@@ -127,15 +127,13 @@
             font-size: 1.16rem;
             border: 1px solid #E4E4E4;
             border-radius: 5px;
+            overflow: hidden;
 
             &-select {
-              width: 100%;
+              width: 120%;
               padding: 16px 20px;
               border: none;
               background: transparent;
-              -webkit-appearance: none;
-              -moz-appearance: none;
-              appearance: none;
             }
 
             &:after {
@@ -188,6 +186,7 @@
               transform: rotate(50deg);
               right: 2px;
             }
+
             &:after{
               content: " ";
               width: 2px;
@@ -210,14 +209,11 @@
       background: #F8F8F8;
       margin: 0 -20px;
 
-
       &-text {
         font-size: 1.16rem;
         font-weight: 700;
         margin: 0 20px;
       }
-
-
     }
   }
 }
