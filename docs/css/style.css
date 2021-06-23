@@ -424,7 +424,8 @@ a:hover {
             justify-content: center;
     display: none;
     padding: 11px;
-    background: #F8F8F8; }
+    background: #F8F8F8;
+    margin: 0 -20px; }
     .first__main--secure-text {
       font-size: 1.16rem;
       font-weight: 700;
