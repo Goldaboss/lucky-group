@@ -278,7 +278,8 @@ a:hover {
       line-height: 39px;
       text-align: center;
       font-weight: 800;
-      padding: 29px 0; }
+      padding: 29px 0;
+      color: #212121; }
     .first__main--link-form {
       display: -webkit-box;
       display: -webkit-flex;
@@ -305,7 +306,10 @@ a:hover {
         width: 100%;
         font-weight: 800;
         padding: 20px 0 10px;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #212121;
+        line-height: 16px; }
         .first__main--link-form-label-green {
           color: #428A60; }
       .first__main--link-form-input {
@@ -320,14 +324,19 @@ a:hover {
           width: 57%;
           margin-right: 20px; }
         .first__main--link-form-input::-webkit-input-placeholder {
+          color: #212121;
           opacity: 0.2; }
         .first__main--link-form-input::-moz-placeholder {
+          color: #212121;
           opacity: 0.2; }
         .first__main--link-form-input:-ms-input-placeholder {
+          color: #212121;
           opacity: 0.2; }
         .first__main--link-form-input::-ms-input-placeholder {
+          color: #212121;
           opacity: 0.2; }
         .first__main--link-form-input::placeholder {
+          color: #212121;
           opacity: 0.2; }
         .first__main--link-form-input-country {
           padding: 0;
@@ -344,7 +353,7 @@ a:hover {
           overflow: hidden; }
           .first__main--link-form-input-country-select {
             width: 120%;
-            padding: 16px 20px;
+            padding: 15px;
             border: none;
             background: transparent; }
           .first__main--link-form-input-country:after {
@@ -382,13 +391,15 @@ a:hover {
         border-radius: 5px;
         color: #FFFFFF;
         font-size: 1.16rem;
-        padding: 13px 0;
-        margin: 40px 0 60px;
-        outline: none; }
+        line-height: 18px;
+        padding: 12px 0;
+        margin: 38px 0 60px;
+        outline: none;
+        letter-spacing: 0.3px; }
         .first__main--link-form-btn-arrow {
           height: 2px;
           position: relative;
-          width: 18px;
+          width: 15px;
           background: #FFFFFF;
           display: inline-block;
           vertical-align: bottom;
@@ -397,7 +408,7 @@ a:hover {
             content: " ";
             width: 2px;
             background: #FFFFFF;
-            height: 10px;
+            height: 8px;
             position: absolute;
             top: -1px;
             -webkit-transform: rotate(50deg);
@@ -408,9 +419,9 @@ a:hover {
             content: " ";
             width: 2px;
             background: #FFFFFF;
-            height: 10px;
+            height: 8px;
             position: absolute;
-            top: -7px;
+            top: -5px;
             -webkit-transform: rotate(-50deg);
                 -ms-transform: rotate(-50deg);
                     transform: rotate(-50deg);
