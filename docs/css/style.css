@@ -317,7 +317,7 @@ a:hover {
         border: 1px solid #E4E4E4;
         border-radius: 5px; }
         .first__main--link-form-input-phone {
-          max-width: 184px;
+          width: 55%;
           margin-right: 20px; }
         .first__main--link-form-input::-webkit-input-placeholder {
           opacity: 0.2; }
@@ -336,7 +336,6 @@ a:hover {
               -ms-flex-positive: 1;
                   flex-grow: 1;
           position: relative;
-          max-width: 116px;
           font-weight: 600;
           background: #F8F8F8 url("../img/image7.png") no-repeat 50% 50%;
           font-size: 1.16rem;
@@ -427,6 +426,8 @@ a:hover {
         left: calc(50% - 101px); }
     .first__main--link {
       width: 100%; }
+      .first__main--link-container {
+        max-width: 100%; }
       .first__main--link-wrap {
         background: none; }
       .first__main--link-title {
@@ -438,7 +439,6 @@ a:hover {
         .first__main--link-form-input {
           padding: 16px 10px; }
           .first__main--link-form-input-phone {
-            max-width: 174px;
             margin-right: 10px; }
           .first__main--link-form-input-country:after {
             right: 10px; }
